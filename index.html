@@ -1,0 +1,422 @@
+!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+   < <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fin de la Pobreza | Iniciativa de Reciclaje Textil</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        serif: ['Playfair Display', 'serif'],
+                    },
+                    colors: {
+                        corporate: {
+                            50: '#f8fafc',
+                            100: '#f1f5f9',
+                            200: '#e2e8f0',
+                            800: '#1e293b',
+                            900: '#0f172a',
+                        },
+                        accent: {
+                            600: '#047857', // Emerald for sustainability
+                            700: '#065f46',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { background-color: #ffffff; color: #334155; }
+        .heading-formal { font-family: 'Playfair Display', serif; }
+        .text-body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="antialiased selection:bg-accent-600 selection:text-white">
+
+    <nav class="bg-white border-b border-corporate-200 sticky top-0 z-50 transition-all shadow-sm">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <a href="#" class="flex items-center gap-3">
+                    <i class="fa-solid fa-leaf text-accent-600 text-xl"></i>
+                    <span class="font-semibold text-xl text-corporate-900 heading-formal tracking-wide">Fin de la Pobreza</span>
+                </a>
+                
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#contexto" class="text-sm font-medium text-slate-600 hover:text-accent-600 transition-colors">Contexto y ODS</a>
+                    <a href="#metodologia" class="text-sm font-medium text-slate-600 hover:text-accent-600 transition-colors">Metodología</a>
+                    <a href="#modelo-negocio" class="text-sm font-medium text-slate-600 hover:text-accent-600 transition-colors">Modelo de Negocio</a>
+                    <a href="#directorio" class="text-sm font-medium text-slate-600 hover:text-accent-600 transition-colors">Directorio</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="relative bg-white pt-16 pb-24 lg:pt-24 lg:pb-32 border-b border-corporate-100">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div class="max-w-2xl">
+                    <p class="text-accent-600 font-semibold tracking-widest uppercase text-xs mb-4">Iniciativa de Impacto Social</p>
+                    <h1 class="heading-formal text-4xl md:text-5xl lg:text-6xl font-bold text-corporate-900 leading-tight mb-6">
+                        Dignificando vidas a través del reciclaje textil.
+                    </h1>
+                    <p class="text-lg text-slate-600 mb-8 leading-relaxed font-light">
+                        Establecemos un puente estratégico entre la abundancia y la necesidad. Un modelo operativo sustentable que transforma prendas donadas en oportunidades reales de desarrollo comunitario.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <a href="#modelo-negocio" class="bg-corporate-900 hover:bg-corporate-800 text-white px-8 py-3 rounded text-sm font-medium transition-colors text-center">
+                            Consultar Modelo Financiero
+                        </a>
+                        <a href="#metodologia" class="bg-white border border-corporate-200 hover:border-corporate-800 text-corporate-900 px-8 py-3 rounded text-sm font-medium transition-colors text-center">
+                            Conocer la Operación
+                        </a>
+                    </div>
+                </div>
+                <div class="relative rounded-lg overflow-hidden shadow-xl">
+                    <img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Voluntarios organizando donaciones" class="w-full h-[500px] object-cover" />
+                    <div class="absolute inset-0 bg-corporate-900/10"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="contexto" class="py-24 bg-corporate-50">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-16 items-start">
+                
+                <div class="grid gap-6">
+                    <div class="relative rounded-lg overflow-hidden shadow-md h-[300px]">
+                        <img src="https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Caja de donaciones de ropa" class="w-full h-full object-cover" />
+                    </div>
+                    <div class="relative rounded-lg overflow-hidden shadow-md h-[200px]">
+                        <img src="https://images.unsplash.com/photo-1593113565214-80afcb4dd505?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Equipo de trabajo comunitario" class="w-full h-full object-cover" />
+                    </div>
+                </div>
+
+                <div class="pt-8">
+                    <h2 class="heading-formal text-3xl md:text-4xl font-bold text-corporate-900 mb-6">El Contexto de Intervención</h2>
+                    <p class="text-slate-600 mb-8 leading-relaxed font-light text-lg">
+                        La carencia de vestimenta adecuada representa una vulneración fundamental a la dignidad humana. Nuestra organización interviene directamente en esta problemática, asegurando una distribución logística equitativa, transparente y responsable.
+                    </p>
+                    
+                    <div class="space-y-6">
+                        <!-- ODS 1 -->
+                        <div class="flex gap-4 p-6 bg-white border border-corporate-200 rounded shadow-sm">
+                            <div class="w-12 h-12 flex-shrink-0 bg-red-50 text-red-700 rounded flex items-center justify-center text-xl">
+                                <i class="fa-solid fa-users"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-corporate-900 mb-1">ODS #1: Fin de la Pobreza</h3>
+                                <p class="text-sm text-slate-600 leading-relaxed">
+                                    Mitigación de la pobreza mediante la provisión de recursos materiales básicos, fomentando la inclusión y el bienestar social en comunidades marginadas.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- ODS 12 -->
+                        <div class="flex gap-4 p-6 bg-white border border-corporate-200 rounded shadow-sm">
+                            <div class="w-12 h-12 flex-shrink-0 bg-amber-50 text-amber-700 rounded flex items-center justify-center text-xl">
+                                <i class="fa-solid fa-recycle"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-corporate-900 mb-1">ODS #12: Producción y Consumo Responsables</h3>
+                                <p class="text-sm text-slate-600 leading-relaxed">
+                                    Implementación de una economía circular que extiende el ciclo de vida de los productos textiles, reduciendo drásticamente el impacto ambiental.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="metodologia" class="py-24 bg-white border-y border-corporate-100">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="heading-formal text-3xl md:text-4xl font-bold text-corporate-900 mb-4">Metodología Operativa</h2>
+                <p class="text-slate-600 font-light text-lg">Un proceso estandarizado diseñado para maximizar la eficiencia y la transparencia en cada etapa de la cadena de suministro solidaria.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Step 1 -->
+                <div class="p-8 border border-corporate-200 rounded bg-corporate-50 hover:shadow-md transition-shadow">
+                    <div class="text-accent-600 text-3xl mb-6">
+                        <i class="fa-solid fa-mobile-screen"></i>
+                    </div>
+                    <h3 class="font-semibold text-corporate-900 mb-3">1. Plataforma y Captación</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed mb-4">Registro estructurado de donativos vía código QR. Auditoría inicial mediante categorización estricta.</p>
+                    <div class="flex gap-2">
+                        <span class="text-xs bg-white border border-corporate-200 px-2 py-1 rounded text-slate-500">#Color</span>
+                        <span class="text-xs bg-white border border-corporate-200 px-2 py-1 rounded text-slate-500">#Talla</span>
+                        <span class="text-xs bg-white border border-corporate-200 px-2 py-1 rounded text-slate-500">#Forma</span>
+                    </div>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="p-8 border border-corporate-200 rounded bg-corporate-50 hover:shadow-md transition-shadow">
+                    <div class="text-accent-600 text-3xl mb-6">
+                        <i class="fa-solid fa-people-carry-box"></i>
+                    </div>
+                    <h3 class="font-semibold text-corporate-900 mb-3">2. Gestión de Voluntariado</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">Personal capacitado realiza la recolección, saneamiento, clasificación de calidad y empaque del inventario textil recuperado.</p>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="p-8 border border-corporate-200 rounded bg-corporate-50 hover:shadow-md transition-shadow">
+                    <div class="text-accent-600 text-3xl mb-6">
+                        <i class="fa-solid fa-handshake-angle"></i>
+                    </div>
+                    <h3 class="font-semibold text-corporate-900 mb-3">3. Programa de Incentivos</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">Fidelización de donantes mediante un sistema de recompensas corporativas y comerciales, consolidando un esquema de beneficio mutuo.</p>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="p-8 border border-corporate-200 rounded bg-corporate-50 hover:shadow-md transition-shadow">
+                    <div class="text-accent-600 text-3xl mb-6">
+                        <i class="fa-solid fa-truck-fast"></i>
+                    </div>
+                    <h3 class="font-semibold text-corporate-900 mb-3">4. Logística y Distribución</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">Operaciones de entrega optimizadas mediante sinergias con dependencias gubernamentales (Ayuntamiento) para distribución en sitio o a domicilio.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="modelo-negocio" class="py-24 bg-corporate-900 text-white">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="mb-16">
+                <h2 class="heading-formal text-3xl md:text-4xl font-bold mb-4">Estructura del Modelo de Negocio</h2>
+                <p class="text-corporate-200 font-light text-lg">Análisis Canvas y proyecciones financieras formales.</p>
+            </div>
+
+            <!-- Canvas Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-px bg-corporate-700 border border-corporate-700 rounded overflow-hidden shadow-2xl mb-12">
+                
+                <!-- Socios Clave -->
+                <div class="bg-corporate-900 p-6 lg:col-span-1">
+                    <h3 class="font-semibold text-accent-400 mb-4 text-sm uppercase tracking-wider">Socios Clave</h3>
+                    <ul class="text-sm text-corporate-200 space-y-3 font-light">
+                        <li class="flex items-start gap-2"><i class="fa-solid fa-check text-corporate-500 mt-1 text-xs"></i> Hacienda de Crédito Público (SHCP)</li>
+                        <li class="flex items-start gap-2"><i class="fa-solid fa-check text-corporate-500 mt-1 text-xs"></i> Secretaría de Bienestar / Desarrollo Integral de la Familia (DIF)</li>
+                        <li class="flex items-start gap-2"><i class="fa-solid fa-check text-corporate-500 mt-1 text-xs"></i> Comunidades Locales</li>
+                        <li class="flex items-start gap-2"><i class="fa-solid fa-check text-corporate-500 mt-1 text-xs"></i> Diseñadores Web</li>
+                    </ul>
+                </div>
+
+                <!-- Actividades y Recursos -->
+                <div class="bg-corporate-900 p-6 lg:col-span-1 border-t lg:border-t-0 lg:border-l border-corporate-700 flex flex-col gap-6">
+                    <div>
+                        <h3 class="font-semibold text-accent-400 mb-4 text-sm uppercase tracking-wider">Actividades Clave</h3>
+                        <ul class="text-sm text-corporate-200 space-y-2 font-light">
+                            <li>• Reciclaje de ropa</li>
+                            <li>• Adaptabilidad a necesidades</li>
+                            <li>• Gestión de incentivos</li>
+                        </ul>
+                    </div>
+                    <div class="pt-6 border-t border-corporate-800">
+                        <h3 class="font-semibold text-accent-400 mb-4 text-sm uppercase tracking-wider">Recursos Clave</h3>
+                        <ul class="text-sm text-corporate-200 space-y-2 font-light">
+                            <li>• Base de donadores</li>
+                            <li>• Red de voluntariado</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Propuesta de Valor -->
+                <div class="bg-corporate-800 p-6 lg:col-span-1 border-t lg:border-t-0 lg:border-l border-corporate-700">
+                    <h3 class="font-semibold text-white mb-4 text-sm uppercase tracking-wider">Propuesta de Valor</h3>
+                    <p class="text-sm text-corporate-200 font-medium italic mb-4">"Modelo de negocio circular donde donatarios y donantes se benefician mutuamente."</p>
+                    <ul class="text-sm text-corporate-200 space-y-3 font-light">
+                        <li class="flex items-start gap-2"><i class="fa-solid fa-location-dot text-corporate-500 mt-1 text-xs"></i> Facilidad de ubicaciones.</li>
+                        <li class="flex items-start gap-2"><i class="fa-solid fa-box-open text-corporate-500 mt-1 text-xs"></i> Flexibilidad: Entrega en sitio institucional o servicio a domicilio.</li>
+                    </ul>
+                </div>
+
+                <!-- Relación y Canales -->
+                <div class="bg-corporate-900 p-6 lg:col-span-1 border-t lg:border-t-0 lg:border-l border-corporate-700 flex flex-col gap-6">
+                    <div>
+                        <h3 class="font-semibold text-accent-400 mb-4 text-sm uppercase tracking-wider">Relación Clientes</h3>
+                        <p class="text-sm text-corporate-200 font-light">Atención directa, <strong>cara a cara</strong>, garantizando confianza y transparencia.</p>
+                    </div>
+                    <div class="pt-6 border-t border-corporate-800">
+                        <h3 class="font-semibold text-accent-400 mb-4 text-sm uppercase tracking-wider">Distribución</h3>
+                        <ul class="text-sm text-corporate-200 space-y-2 font-light">
+                            <li>• Envío logístico a domicilio</li>
+                            <li>• Retiro en sitio físico</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Segmentos -->
+                <div class="bg-corporate-900 p-6 lg:col-span-1 border-t lg:border-t-0 lg:border-l border-corporate-700">
+                    <h3 class="font-semibold text-accent-400 mb-4 text-sm uppercase tracking-wider">Segmentos Mercado</h3>
+                    <ul class="text-sm text-corporate-200 space-y-3 font-light">
+                        <li class="flex items-start gap-2"><i class="fa-solid fa-user text-corporate-500 mt-1 text-xs"></i> Particulares (Usuarios finales)</li>
+                        <li class="flex items-start gap-2"><i class="fa-solid fa-building-ngo text-corporate-500 mt-1 text-xs"></i> Asociaciones y ONGs</li>
+                        <li class="flex items-start gap-2"><i class="fa-solid fa-building text-corporate-500 mt-1 text-xs"></i> Empresas corporativas</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Financials Table -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <!-- Costos -->
+                <div class="bg-white text-corporate-900 rounded border border-corporate-200 p-8">
+                    <h3 class="heading-formal text-xl font-bold mb-6 border-b border-corporate-200 pb-4">Estructura de Egresos</h3>
+                    <table class="w-full text-sm text-left">
+                        <thead class="text-xs text-slate-500 uppercase bg-corporate-50">
+                            <tr>
+                                <th class="px-4 py-3 font-medium">Concepto Operativo</th>
+                                <th class="px-4 py-3 font-medium text-right">Mensual (MXN)</th>
+                                <th class="px-4 py-3 font-medium text-right">Anual (MXN)</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-corporate-100">
+                            <tr>
+                                <td class="px-4 py-3 font-medium">Logística y Transporte</td>
+                                <td class="px-4 py-3 text-right text-slate-600">$2,500</td>
+                                <td class="px-4 py-3 text-right font-semibold">$30,000</td>
+                            </tr>
+                            <tr>
+                                <td class="px-4 py-3 font-medium">Incentivos (Recompensas)</td>
+                                <td class="px-4 py-3 text-right text-slate-600">$5,000</td>
+                                <td class="px-4 py-3 text-right font-semibold">$60,000</td>
+                            </tr>
+                            <tr>
+                                <td class="px-4 py-3 font-medium">Marketing y Difusión</td>
+                                <td class="px-4 py-3 text-right text-slate-600">$1,500 - $2,000</td>
+                                <td class="px-4 py-3 text-right font-semibold">$18,000 - $24,000</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Ingresos -->
+                <div class="bg-white text-corporate-900 rounded border border-corporate-200 p-8">
+                    <h3 class="heading-formal text-xl font-bold mb-6 border-b border-corporate-200 pb-4">Fuentes de Financiamiento</h3>
+                    <table class="w-full text-sm text-left">
+                        <thead class="text-xs text-slate-500 uppercase bg-corporate-50">
+                            <tr>
+                                <th class="px-4 py-3 font-medium">Fuente de Ingreso</th>
+                                <th class="px-4 py-3 font-medium text-right">Monto Estimado (MXN)</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-corporate-100">
+                            <tr>
+                                <td class="px-4 py-3 font-medium">Donaciones de Tarifa Base</td>
+                                <td class="px-4 py-3 text-right font-semibold">Min. $5,000</td>
+                            </tr>
+                            <tr>
+                                <td class="px-4 py-3">
+                                    <span class="font-medium block">Patrocinios de Celebridades</span>
+                                    <span class="text-xs text-slate-500 block mt-1">• Canelo Álvarez</span>
+                                    <span class="text-xs text-slate-500 block">• Grupo Maná</span>
+                                </td>
+                                <td class="px-4 py-3 text-right font-semibold align-bottom">
+                                    <span class="block mt-1 text-xs">$1,000,000</span>
+                                    <span class="block text-xs">$500,000</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="px-4 py-3 font-medium">Aportaciones Corporativas</td>
+                                <td class="px-4 py-3 text-right font-semibold text-accent-600">$150,000 - $500,000</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="directorio" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h2 class="heading-formal text-3xl md:text-4xl font-bold text-corporate-900 mb-4">Junta Directiva / Equipo #6</h2>
+                <p class="text-slate-600 font-light text-lg">Dirección general y coordinación del proyecto operativo.</p>
+            </div>
+
+            <!-- Team Grid (Strictly identical representation) -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                
+                <!-- Member 1 -->
+                <div class="border border-corporate-200 rounded text-center overflow-hidden hover:shadow-lg transition-shadow bg-white">
+                    <div class="h-24 bg-corporate-100 flex items-end justify-center pb-0 border-b border-corporate-200">
+                         <div class="w-16 h-16 bg-white border border-corporate-200 rounded-full flex items-center justify-center translate-y-1/2 shadow-sm">
+                            <i class="fa-solid fa-user-tie text-corporate-400 text-xl"></i>
+                         </div>
+                    </div>
+                    <div class="pt-12 pb-8 px-4">
+                        <h3 class="font-semibold text-corporate-900 text-[15px] leading-tight mb-2">Juárez Franco<br>Naomi Elizabeth</h3>
+                        <p class="text-xs uppercase tracking-widest text-slate-500 font-medium">Miembro Fundador</p>
+                    </div>
+                </div>
+
+                <!-- Member 2 -->
+                <div class="border border-corporate-200 rounded text-center overflow-hidden hover:shadow-lg transition-shadow bg-white">
+                    <div class="h-24 bg-corporate-100 flex items-end justify-center pb-0 border-b border-corporate-200">
+                         <div class="w-16 h-16 bg-white border border-corporate-200 rounded-full flex items-center justify-center translate-y-1/2 shadow-sm">
+                            <i class="fa-solid fa-user-tie text-corporate-400 text-xl"></i>
+                         </div>
+                    </div>
+                    <div class="pt-12 pb-8 px-4">
+                        <h3 class="font-semibold text-corporate-900 text-[15px] leading-tight mb-2">Densel Mauricio<br>Alfaro Vergara</h3>
+                        <p class="text-xs uppercase tracking-widest text-slate-500 font-medium">Miembro Fundador</p>
+                    </div>
+                </div>
+
+                <!-- Member 3 -->
+                <div class="border border-corporate-200 rounded text-center overflow-hidden hover:shadow-lg transition-shadow bg-white">
+                    <div class="h-24 bg-corporate-100 flex items-end justify-center pb-0 border-b border-corporate-200">
+                         <div class="w-16 h-16 bg-white border border-corporate-200 rounded-full flex items-center justify-center translate-y-1/2 shadow-sm">
+                            <i class="fa-solid fa-user-tie text-corporate-400 text-xl"></i>
+                         </div>
+                    </div>
+                    <div class="pt-12 pb-8 px-4">
+                        <h3 class="font-semibold text-corporate-900 text-[15px] leading-tight mb-2">Evolet Alizee<br>Trejo Ornelas</h3>
+                        <p class="text-xs uppercase tracking-widest text-slate-500 font-medium">Miembro Fundador</p>
+                    </div>
+                </div>
+
+                <!-- Member 4 -->
+                <div class="border border-corporate-200 rounded text-center overflow-hidden hover:shadow-lg transition-shadow bg-white">
+                    <div class="h-24 bg-corporate-100 flex items-end justify-center pb-0 border-b border-corporate-200">
+                         <div class="w-16 h-16 bg-white border border-corporate-200 rounded-full flex items-center justify-center translate-y-1/2 shadow-sm">
+                            <i class="fa-solid fa-user-tie text-corporate-400 text-xl"></i>
+                         </div>
+                    </div>
+                    <div class="pt-12 pb-8 px-4">
+                        <h3 class="font-semibold text-corporate-900 text-[15px] leading-tight mb-2">Mejía Ramos<br>Diana Elizabeth</h3>
+                        <p class="text-xs uppercase tracking-widest text-slate-500 font-medium">Miembro Fundador</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-corporate-50 border-t border-corporate-200 py-12 text-sm text-slate-500 text-center">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-4">
+            <div class="flex items-center gap-2">
+                <i class="fa-solid fa-leaf text-accent-600"></i>
+                <span class="font-medium text-corporate-900">Proyecto Fin de la Pobreza #1</span>
+            </div>
+            <p>&copy; 2026 Modelo de Negocios Corporativo - Equipo #6. Documento de uso académico.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
